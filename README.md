@@ -1,2 +1,29 @@
 # Rogalik
-Top-down rogue-lite project to educate my skills in Unreal Engine UI development
+Это проект top-down rogue-lite игры на игровом движке Unreal engine 5.
+
+## Задачи
+1. Отработать навык разрабатывать игровые механики и UI в режиме неопределенности и итеративно
+2. Научиться системно собирать и оценивать player experience
+
+## Цель
+Доводить каждую итерацию игру до играбельного состояния
+
+## Основные этапы разработки
+### Phase 0 - Foundation slice
+Делаю минимальный playable core loop
+1. Перемещение
+2. Атака (в дальнем бою)
+3. HP
+4. Простейший противник
+5. Смерть
+6. Перезагрузка
+7. Простейший HUD
+
+### Phase 1 - Vertical slice
+Делаю маленький и цельный игровой опыт:
+1. Разные типы врагов
+2. Разные типы атак
+3. Прогрессия (XP, level up)
+4. Abilities + upgrades
+5. UI (menus, settings, transitions, async)
+6. Системы (data-driven configs, save, modular системы)
