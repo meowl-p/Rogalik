@@ -189,7 +189,7 @@ public:
 public:
 
 	/** Applies collision impact to the player */
-	void HandleDamage(float Damage, const FVector& DamageDirection);
+	virtual void HandleDamage(float Damage, const FVector& DamageDirection);
 
 protected:
 
